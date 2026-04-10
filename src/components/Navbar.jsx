@@ -32,7 +32,9 @@ export default function Navbar() {
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 24px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
           <a href="#home">
-            <img src="/logo.png" alt="Top-Tier Advance" style={{ height: 48, width: 'auto' }} />
+            <img src="/logo.svg"
+
+ alt="Top-Tier Advance" style={{ height: 48, width: 'auto' }} />
           </a>
           <div style={{ display: 'none', gap: 32 }} className="desktop-nav">
             {navLinks.map(link => (
