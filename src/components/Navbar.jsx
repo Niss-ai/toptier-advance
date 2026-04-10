@@ -32,7 +32,9 @@ export default function Navbar() {
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 24px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
           <a href="#home">
-            <img src="/logo.svg"
+            <img src="/src/logo.svg"
+
+
 
  alt="Top-Tier Advance" style={{ height: 48, width: 'auto' }} />
           </a>
