@@ -32,11 +32,9 @@ export default function Navbar() {
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 24px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
           <a href="#home">
-            <img src="/src/logo.svg"
+            <svg width="200" height="48" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="120" fill="#0a0a0a"/><line x1="30" y1="25" x2="30" y2="95" stroke="#C9A84C" strokeWidth="2"/><line x1="44" y1="15" x2="44" y2="105" stroke="#C9A84C" strokeWidth="2.5"/><line x1="59" y1="8" x2="59" y2="112" stroke="#C9A84C" strokeWidth="3"/><line x1="74" y1="15" x2="74" y2="105" stroke="#C9A84C" strokeWidth="2.5"/><line x1="88" y1="25" x2="88" y2="95" stroke="#C9A84C" strokeWidth="2"/><text x="108" y="62" fontFamily="Georgia, serif" fontSize="28" fontWeight="700" fill="#ffffff" dominantBaseline="middle" letterSpacing="3">TOP-TIER</text><text x="110" y="88" fontFamily="Georgia, serif" fontSize="13" fill="#C9A84C" dominantBaseline="middle" letterSpacing="8">ADVANCE</text></svg>
 
 
-
- alt="Top-Tier Advance" style={{ height: 48, width: 'auto' }} />
           </a>
           <div style={{ display: 'none', gap: 32 }} className="desktop-nav">
             {navLinks.map(link => (
