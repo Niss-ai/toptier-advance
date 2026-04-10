@@ -57,7 +57,8 @@ export default function CTASection() {
       </section>
       <footer style={{ background: '#050505', borderTop: '1px solid rgba(255,255,255,0.06)', padding: '32px 24px' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
-          <img src="/logo.png" alt="Top-Tier Advance" style={{ height: 36, width: 'auto', filter: 'brightness(0) invert(1)' }} />
+          <svg width="200" height="48" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="120" fill="#0a0a0a"/><line x1="30" y1="25" x2="30" y2="95" stroke="#C9A84C" strokeWidth="2"/><line x1="44" y1="15" x2="44" y2="105" stroke="#C9A84C" strokeWidth="2.5"/><line x1="59" y1="8" x2="59" y2="112" stroke="#C9A84C" strokeWidth="3"/><line x1="74" y1="15" x2="74" y2="105" stroke="#C9A84C" strokeWidth="2.5"/><line x1="88" y1="25" x2="88" y2="95" stroke="#C9A84C" strokeWidth="2"/><text x="108" y="62" fontFamily="Georgia, serif" fontSize="28" fontWeight="700" fill="#ffffff" dominantBaseline="middle" letterSpacing="3">TOP-TIER</text><text x="110" y="88" fontFamily="Georgia, serif" fontSize="13" fill="#C9A84C" dominantBaseline="middle" letterSpacing="8">ADVANCE</text></svg>
+
           <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.3)' }}>© {new Date().getFullYear()} Top-Tier Advance. All rights reserved.</span>
           <div style={{ display: 'flex', gap: 24 }}>
             <a href="/PrivacyPolicy" style={{ fontSize: 12, color: 'rgba(255,255,255,0.3)', textDecoration: 'none' }}>Privacy Policy</a>
